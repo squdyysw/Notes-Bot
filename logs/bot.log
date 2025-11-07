@@ -1,0 +1,121 @@
+2025-11-07 20:16:24,203 [INFO] utils.logger: Database initialized successfully.
+2025-11-07 20:16:24,436 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getMe "HTTP/1.1 200 OK"
+2025-11-07 20:16:24,508 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/deleteWebhook "HTTP/1.1 200 OK"
+2025-11-07 20:16:24,511 [INFO] apscheduler.scheduler: Scheduler started
+2025-11-07 20:16:24,511 [INFO] telegram.ext.Application: Application started
+2025-11-07 20:16:33,787 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:16:34,163 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:16:43,872 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:16:46,309 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:16:46,317 [INFO] utils.logger: Note added for user_id=1323661216.
+2025-11-07 20:16:46,647 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:16:50,112 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:16:50,115 [INFO] utils.logger: Fetched 3 notes for user_id=1323661216.
+2025-11-07 20:16:50,270 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:16:55,135 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:16:55,142 [INFO] utils.logger: Deleted note_id=4 for user_id=1323661216.
+2025-11-07 20:16:55,336 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:17:02,980 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:17:02,983 [INFO] utils.logger: Fetched 2 notes for user_id=1323661216.
+2025-11-07 20:17:03,197 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:17:11,008 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:17:11,009 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2025-11-07 20:17:11,010 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2025-11-07 20:17:11,010 [INFO] telegram.ext.Application: Application.stop() complete
+2025-11-07 20:23:39,437 [INFO] utils.logger: Database initialized successfully.
+2025-11-07 20:23:39,696 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getMe "HTTP/1.1 200 OK"
+2025-11-07 20:23:39,762 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/deleteWebhook "HTTP/1.1 200 OK"
+2025-11-07 20:23:39,764 [INFO] apscheduler.scheduler: Scheduler started
+2025-11-07 20:23:39,764 [INFO] telegram.ext.Application: Application started
+2025-11-07 20:23:46,291 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:23:46,299 [INFO] utils.logger: Note added for user_id=1323661216.
+2025-11-07 20:23:46,600 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:23:46,602 [INFO] utils.logger: Note added for user_id=1323661216: 'new note'
+2025-11-07 20:23:50,398 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:23:50,402 [INFO] utils.logger: Fetched 3 notes for user_id=1323661216.
+2025-11-07 20:23:50,532 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:24:00,476 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:24:02,149 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:24:02,156 [INFO] utils.logger: Deleted note_id=5 for user_id=1323661216.
+2025-11-07 20:24:02,465 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:24:05,234 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:24:05,235 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2025-11-07 20:24:05,236 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2025-11-07 20:24:05,236 [INFO] telegram.ext.Application: Application.stop() complete
+2025-11-07 20:24:19,973 [INFO] utils.logger: Database initialized successfully.
+2025-11-07 20:24:20,224 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getMe "HTTP/1.1 200 OK"
+2025-11-07 20:24:20,301 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/deleteWebhook "HTTP/1.1 200 OK"
+2025-11-07 20:24:20,303 [INFO] apscheduler.scheduler: Scheduler started
+2025-11-07 20:24:20,304 [INFO] telegram.ext.Application: Application started
+2025-11-07 20:24:27,682 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:24:27,690 [INFO] utils.logger: Note added for user_id=1323661216.
+2025-11-07 20:24:28,007 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:24:28,009 [INFO] utils.logger: Note added for user_id=1323661216: 'new note'
+2025-11-07 20:24:33,926 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:24:33,929 [INFO] utils.logger: Fetched 3 notes for user_id=1323661216.
+2025-11-07 20:24:34,258 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:24:39,169 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:24:39,172 [WARNING] utils.logger: No note found for deletion: note_id=56, user_id=1323661216.
+2025-11-07 20:24:39,268 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:24:49,267 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:24:59,349 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:29:41,588 [INFO] utils.logger: Database initialized successfully.
+2025-11-07 20:29:41,838 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getMe "HTTP/1.1 200 OK"
+2025-11-07 20:29:41,905 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/deleteWebhook "HTTP/1.1 200 OK"
+2025-11-07 20:29:41,907 [INFO] apscheduler.scheduler: Scheduler started
+2025-11-07 20:29:41,907 [INFO] telegram.ext.Application: Application started
+2025-11-07 20:29:52,120 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:30:02,195 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:30:09,011 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:30:09,020 [INFO] utils.logger: Note added for user_id=1323661216.
+2025-11-07 20:30:09,282 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:30:09,283 [INFO] utils.logger: Note added for user_id=1323661216: 'new note'
+2025-11-07 20:30:11,706 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:30:11,711 [INFO] utils.logger: Fetched 4 notes for user_id=1323661216.
+2025-11-07 20:30:11,817 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:30:19,808 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:30:19,814 [INFO] utils.logger: Deleted note_id=6 for user_id=1323661216.
+2025-11-07 20:30:20,087 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:30:20,088 [INFO] utils.logger: Deleted note_id=6 for user_id=1323661216
+2025-11-07 20:30:21,865 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:30:21,869 [INFO] utils.logger: Fetched 3 notes for user_id=1323661216.
+2025-11-07 20:30:21,987 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:30:29,915 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:30:29,917 [INFO] utils.logger: Found 1 notes for user_id=1323661216 with keyword='new'.
+2025-11-07 20:30:31,258 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:30:31,259 [INFO] utils.logger: /find: found 1 results for keyword='new' from user_id=1323661216
+2025-11-07 20:30:34,363 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:30:34,364 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2025-11-07 20:30:34,364 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2025-11-07 20:30:34,364 [INFO] telegram.ext.Application: Application.stop() complete
+2025-11-07 20:33:46,717 [INFO] utils.logger: Database initialized successfully.
+2025-11-07 20:33:46,717 [INFO] utils.logger: Database initialized successfully.
+2025-11-07 20:33:46,717 [INFO] utils.logger: \u2705 Bot started...
+2025-11-07 20:33:47,006 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getMe "HTTP/1.1 200 OK"
+2025-11-07 20:33:47,089 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/deleteWebhook "HTTP/1.1 200 OK"
+2025-11-07 20:33:47,091 [INFO] apscheduler.scheduler: Scheduler started
+2025-11-07 20:33:47,092 [INFO] telegram.ext.Application: Application started
+2025-11-07 20:33:57,320 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:33:58,097 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:33:58,350 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:33:58,351 [INFO] utils.logger: /help command used by user_id=1323661216
+2025-11-07 20:34:03,789 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:34:03,795 [INFO] utils.logger: Note added for user_id=1323661216.
+2025-11-07 20:34:04,035 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:34:04,037 [INFO] utils.logger: Note added for user_id=1323661216: 'bad note'
+2025-11-07 20:34:06,596 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:34:06,608 [INFO] utils.logger: Fetched 4 notes for user_id=1323661216.
+2025-11-07 20:34:06,719 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:34:06,720 [INFO] utils.logger: /list: sent 4 notes to user_id=1323661216
+2025-11-07 20:34:12,506 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:34:12,508 [INFO] utils.logger: Found 1 notes for user_id=1323661216 with keyword='bad'.
+2025-11-07 20:34:12,759 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:34:12,761 [INFO] utils.logger: /find: found 1 results for keyword='bad' from user_id=1323661216
+2025-11-07 20:34:16,358 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:34:16,365 [INFO] utils.logger: Deleted note_id=8 for user_id=1323661216.
+2025-11-07 20:34:16,476 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/sendMessage "HTTP/1.1 200 OK"
+2025-11-07 20:34:16,477 [INFO] utils.logger: Deleted note_id=8 for user_id=1323661216
+2025-11-07 20:34:24,355 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6415379091:AAEOeb3C_oU8Cly0FysONhfezVQ_QOFxdvk/getUpdates "HTTP/1.1 200 OK"
+2025-11-07 20:34:24,355 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2025-11-07 20:34:24,356 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2025-11-07 20:34:24,356 [INFO] telegram.ext.Application: Application.stop() complete
