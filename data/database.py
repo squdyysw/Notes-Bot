@@ -79,7 +79,7 @@ def get_notes(user_id: int):
 
 def delete_note(note_id: int, user_id: int) -> bool:
     """
-    Deletes a note by its ID for a specific user.
+    Deletes a note by its ID for a specific user and reindexes remaining notes.
 
     Args:
         note_id (int): Note ID in the database.
@@ -91,19 +91,37 @@ def delete_note(note_id: int, user_id: int) -> bool:
     try:
         conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
+
+        # 1. Delete the note
         cursor.execute(
             "DELETE FROM notes WHERE id = ? AND user_id = ?",
             (note_id, user_id)
         )
         conn.commit()
-        deleted = cursor.rowcount > 0
-        if deleted:
-            logger.info(f"Deleted note_id={note_id} for user_id={user_id}.")
-        else:
+
+        if cursor.rowcount == 0:
             logger.warning(f"No note found for deletion: note_id={note_id}, user_id={user_id}.")
-        return deleted
+            return False
+
+        logger.info(f"Deleted note_id={note_id} for user_id={user_id}.")
+
+        # 2. Reindex remaining notes for this user
+        cursor.execute(
+            "SELECT id FROM notes WHERE user_id = ? ORDER BY id ASC",
+            (user_id,)
+        )
+        all_notes = cursor.fetchall()
+
+        for new_index, (old_id,) in enumerate(all_notes, start=1):
+            cursor.execute("UPDATE notes SET id = ? WHERE id = ?", (new_index, old_id))
+
+        conn.commit()
+        logger.info(f"Reindexed notes for user_id={user_id}. Total={len(all_notes)}")
+
+        return True
+
     except sqlite3.Error as e:
-        logger.error(f"Error deleting note_id={note_id} for user_id={user_id}: {e}")
+        logger.error(f"Error deleting note_id={note_id} for user_id={user_id}: {e}", exc_info=True)
         return False
     finally:
         conn.close()
@@ -133,5 +151,38 @@ def find_notes(user_id: int, keyword: str):
     except sqlite3.Error as e:
         logger.error(f"Error searching notes for user_id={user_id} with keyword='{keyword}': {e}")
         return []
+    finally:
+        conn.close()
+
+
+def update_note(user_id: int, note_id: int, new_text: str) -> bool:
+    """
+    Update the text of a note for a specific user.
+
+    Args:
+        user_id (int): Telegram user ID.
+        note_id (int): Real ID of the note in the database.
+        new_text (str): New text for the note.
+
+    Returns:
+        bool: True if the note was updated, False if not found or error occurred.
+    """
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        cursor = conn.cursor()
+        cursor.execute(
+            "UPDATE notes SET text = ? WHERE id = ? AND user_id = ?",
+            (new_text, note_id, user_id)
+        )
+        conn.commit()
+        updated = cursor.rowcount > 0
+        if updated:
+            logger.info(f"Updated note_id={note_id} for user_id={user_id}")
+        else:
+            logger.warning(f"No note found to update: note_id={note_id}, user_id={user_id}")
+        return updated
+    except sqlite3.Error as e:
+        logger.error(f"Error updating note_id={note_id} for user_id={user_id}: {e}")
+        return False
     finally:
         conn.close()

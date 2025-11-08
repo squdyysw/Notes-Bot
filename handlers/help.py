@@ -1,10 +1,3 @@
-"""
-Handler for the /help command in the Telegram bot.
-
-This module defines an asynchronous handler function that provides
-users with a list of available bot commands.
-"""
-
 from typing import Awaitable
 from telegram import Update
 from telegram.ext import ContextTypes
@@ -29,10 +22,11 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Aw
     try:
         await update.message.reply_text(
             "Available commands:\n"
-            "/add <text> — add a note\n"
+            "/add <text> — add a note or input after command\n"
             "/list — show all notes\n"
             "/delete <ID> — delete a note\n"
-            "/find <keyword> — search notes"
+            "/find <keyword> — search notes\n"
+            "/edit <number> — edit a note"
         )
         user = update.effective_user
         user_id = user.id if user else None
